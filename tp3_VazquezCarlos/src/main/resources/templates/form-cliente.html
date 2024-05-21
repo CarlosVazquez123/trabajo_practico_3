@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">		
+		<title>TP3_2</title>
+		<link rel="stylesheet" href="../static/css/estilos.css">
+	</head>
+	<body>
+		<main class="cuerpo">
+		<header id="titulos">
+			<h1>Formulario</h1>
+		</header>
+		<nav class="navegacion">
+			<a class="enlaces" href="index.html">Pagina Principal</a>
+		</nav>
+		<form>
+			<label>
+			DNI: <input type="text" placeholder="Ingrese su DNI" name="dni" required> <br>
+			</label>
+			<label>
+			Nombres: <input type="text" placeholder="Ingrese su Nombre" name="nombre" required> <br>
+			</label>
+			<label>
+			Apellido: <input type="text" placeholder="Ingrese su Apellido" name="apellido" required> <br> 
+			</label>
+			<label>
+			Fecha de Nacimiento: <input type="date" placeholder="Ingrese su Fecha de Nacimiento"
+			name="fechanac" required> <br>
+			</label>
+			<label>
+			Genero: <input type="radio" name="sex" value="hombre"> Hombre
+					<input type="radio" name="sex" value="mujer"> Mujer <br>
+			</label>
+			<label>
+			Correo Electronico: <input type="text" placeholder="Ingrese su Correo Electronico"
+								name="correo" required> <br>
+			</label>
+			<label>
+			Domicilio: <input type="text" placeholder="Ingrese su Domicilio" name="domicilio" required><br>
+			</label>
+			<label>
+			Provincia: 
+			<select name="provincias" required>
+				<option value="" selected></option>
+				<option value="Jujuy"> Jujuy </option>	
+				<option value="Salta"> Salta </option>
+				<option value="Tucuman"> Tucuman </option>
+				<option value="Cordoba"> Cordoba </option>
+			</select> <br>
+			</label>
+			<label>
+			Numero de telefono celular: <input type="number" placeholder="Ingrese su numero de 
+										telefono" name="telefono"><br>
+			</label>
+			<label>
+			Ingrese tema de su interes <br>
+			<input type="checkbox"> Liga Profesional
+			<input type="checkbox"> Primera Nacional
+			<input type="checkbox"> Premier League
+			<br>
+			</label><label>
+			Sugerencias para la Empresa: <br>
+			<textarea rows="4" cols="40" name="sugerencia" id="sugerencia"></textarea><br>
+			</label><label>
+			Password: <input type="password" name="contraseña" required> <br>
+			</label><label>
+			Acepto los Terminos y Condiciones <br> <input type="checkbox" required> Aceptar <br>
+			</label><label>
+			Acepto recibir informacion relativa a la empresa <br> <input type="checkbox"> Aceptar <br>
+			</label>
+			<button>Subir</button>
+		</form>
+		</main>
+	</body>
+	
+	<footer id="idfooter">
+		<a class="afooter" href="http://www.unju.edu.ar/">Pagina de Internet</a>
+		<a class="afooter" href="https://www.instagram.com/unjuvirtual/">Instagram</a>
+	</footer>
+</html>

@@ -1,0 +1,72 @@
+#titulos{
+	font-size: large;
+	text-align: center;
+}
+
+.cuerpo{
+	text-align: center;
+}
+
+.navegacion{
+	background-color: rgb(16, 63, 121);
+	width: 100%;
+	height: 40px;
+
+}
+
+.navegacion ul li{
+	float: left;
+	padding: 10px;
+	padding-left: 35px;
+}
+
+.enlaces{
+	color: rgb(243, 178, 41);
+	font-size: 19px;
+	
+}
+
+.titulospequeños{
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.secciones{
+	text-align: center;
+}
+
+.contenidos{
+	list-style: none;
+	font-size: 19px;
+	margin-left: auto; /*para centrar table*/
+	margin-right: auto;
+}
+
+.adicionalaside{
+	text-align: center;
+	padding: 20px;
+	background-color: rgb(16, 63, 121);
+}
+
+.contenidoadicional{
+	font-size: 19px;
+	padding: 15px;
+	color: rgb(243, 178, 41);
+}
+
+#idfooter{
+	background-color: rgb(20, 18, 22);
+	height: 25px;
+	padding:20px;
+	text-align: center;
+}
+
+.afooter{
+	color: rgb(243, 178, 41);
+	font-size: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+body{
+	background-color:rgb(243, 178, 41);
+}
